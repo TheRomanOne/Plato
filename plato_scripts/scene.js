@@ -114,12 +114,12 @@ class PlatoScene
                 {
                     // hit ground
                     let {x, y, z} = intersections[i].point;
-                    this.pointerLight.position.set(x, y + this.unit/2, z);
+                    this.pointerLight.position.set(x - this.world.position.x, y + this.unit/2, z - this.world.position.z);
 
                     this.pointerPad.position.set(
-                        Math.floor(.5 + x / this.unit)*this.unit,
+                        Math.floor(.5 + x / this.unit)*this.unit - this.world.position.x,
                         y,
-                        Math.floor(.5 + z / this.unit)*this.unit
+                        Math.floor(.5 + z / this.unit)*this.unit - this.world.position.z
                     )
                     break;
                 }
