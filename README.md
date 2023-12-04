@@ -1,12 +1,11 @@
 # Plato
 Live demo:
-https://codepen.io/theromanone-the-vuer/pen/OJNqZVE
+https://codepen.io/the-roman-one/pen/VwgVjdW
 
-![alt text](https://raw.githubusercontent.com/TheRomanOne/Plato/master/plt.png)
+![alt text](https://raw.githubusercontent.com/TheRomanOne/Plato/master/v3.PNG)
 
-A procedurally generated world builder project I started to work on.
-
-So far there's minimal user interaction:
-A random world will be generated (random tree and rock placement, same lake function)
-BUT only a small segment of the world is rendered and you can move around with the arrows to explore the entire map.
-and also you can place trees, which is quite nice
+A procedurally generates block world
+● Use arrows to move around
+● Click on an object to delete it
+● Click on an empty spot to plant a tree
+● Change wind speed and daytime
